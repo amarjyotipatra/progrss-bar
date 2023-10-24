@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Progrss Bar</title>
+  <style>
+    html {
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    *,*::before,*::after{
+      box-sizing: inherit;
+    }
+
+    #progress{
+      width: 100%;
+      border: 2px solid black;
+      border-radius:5px;
+      display: flex;
+    }
+
+    #progress-bar{
+      background-color: aquamarine;
+      flex-basis:50%;
+    }
+
+    #percentage{
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="progress">
+    <div id="progress-bar">
+    <div id="percentage">
+      50%
+    </div>  
+    </div>
+  </div>
+</body>
+
+</html>
